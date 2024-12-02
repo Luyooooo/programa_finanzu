@@ -1,0 +1,4 @@
+Correo: andres123@gmail.com
+Contraseña: 123456
+Presupuesto: 1999567.0
+Gastos: {"Arriendo": 1000000.0, "Comida": 300000.0}

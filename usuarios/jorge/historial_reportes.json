@@ -1,0 +1,13 @@
+[
+    {
+        "fecha": "2024-11-30 21:21:17",
+        "presupuesto": 1000000.0,
+        "total_gastos": 339000.0,
+        "porcentaje_gastado": 33.9,
+        "detalle_gastos": {
+            "Alimentaci\u00f3n": 200000.0,
+            "Transporte": 50000.0,
+            "Universidad": 89000.0
+        }
+    }
+]

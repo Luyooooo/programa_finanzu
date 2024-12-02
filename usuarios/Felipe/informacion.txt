@@ -1,0 +1,4 @@
+Correo: felipe123@gmail.com
+Contraseña: 12345678
+Presupuesto: 1200000.0
+Gastos: {"Arriendo": 800000.0, "Comida": 200000.0, "Transporte": 50000.0}
