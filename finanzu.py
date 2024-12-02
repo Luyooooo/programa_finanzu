@@ -40,11 +40,11 @@ def autenticar_usuario():
         print("El usuario no existe.")
         return None
 
-    contraseña = input("Ingrese su contraseña: ").strip()  # Corregido: Agregar paréntesis en strip()
+    contraseña = input("Ingrese su contraseña: ").strip()  
 
     with open(os.path.join(user_path, "informacion.txt"), "r") as file:
         lines = file.readlines()
-        stored_password = lines[1].split(": ")[1].strip()  # Corregido: Obtener la contraseña almacenada correctamente
+        stored_password = lines[1].split(": ")[1].strip()  
 
     if contraseña == stored_password:
         print("Autenticación exitosa.")
@@ -116,7 +116,7 @@ def guardar_reporte(user_path, reporte):
         json.dump(historial, file, indent=4)
 
 def graficar_gastos(categorias):
-    plt.subplot(1, 2, 1)  # 1 fila, 2 columnas
+    plt.subplot(1, 2, 1)  
     plt.bar(categorias.keys(), categorias.values(), color="blue")
     plt.xlabel("Categorías")
     plt.ylabel("Gastos")
@@ -124,7 +124,7 @@ def graficar_gastos(categorias):
 
 def graficar_presupuesto_vs_gastos(presupuesto, categorias):
     total_gastos = sum(categorias.values())
-    plt.subplot(1, 2, 2)  # 1 fila, 2 columnas, el segundo subplot
+    plt.subplot(1, 2, 2)  
     plt.bar(["Presupuesto", "Gastos"], [presupuesto, total_gastos], color=["green", "red"])
     plt.ylabel("Valor")
     plt.xlabel("Comparación")
@@ -149,7 +149,7 @@ def generar_reporte(user_path):
         "fecha": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "presupuesto": presupuesto,
         "total_gastos": total_gastos,
-        "porcentaje_gastado": porcentaje_gastado,  # Corregido: nombre correcto de la variable
+        "porcentaje_gastado": porcentaje_gastado,  
         "detalle_gastos": gastos
     }
     
