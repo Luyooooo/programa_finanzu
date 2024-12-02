@@ -1,4 +1,0 @@
-Correo: juanes123@gmail.com
-Contraseña: 123456789
-Presupuesto: 1000000.0
-Gastos: {"Transporte": 300000.0, "Comida": 180000.0, "Videojuegos": 100000.0}
