@@ -1,4 +1,0 @@
-Correo: jorge@gmail.com
-Contraseña: jorge
-Presupuesto: 1000000.0
-Gastos: {"Alimentaci\u00f3n": 200000.0, "Transporte": 50000.0, "Universidad": 89000.0}
